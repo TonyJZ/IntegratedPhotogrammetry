@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ImageMatchView - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ImageMatchView.res" /d "_DEBUG" /d "_AFXDLL" "F:\openrs\IntegratedPhotogrammetry\src\ImageMatchView\ImageMatchView.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP131.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "\openrs\desktop\include" /I "\openrs\IntegratedPhotogrammetry\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ImageMatchView.pch" /YX"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\openrs\IntegratedPhotogrammetry\src\ImageMatchView\ImageMatchView.cpp"
+"F:\openrs\IntegratedPhotogrammetry\src\ImageMatchView\ImageMatchViewDoc.cpp"
+"F:\openrs\IntegratedPhotogrammetry\src\ImageMatchView\ImageMatchViewView.cpp"
+"F:\openrs\IntegratedPhotogrammetry\src\ImageMatchView\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP131.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP132.tmp" with contents
+[
+orsBaseD.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ImageMatchView.pdb" /debug /machine:I386 /out:"\openRS\desktop\debug\vc60/ImageMatchView.exe" /pdbtype:sept /libpath:"\openrs\desktop\debug\vc60" /libpath:"\openrs\desktop\lib\vc60" 
+.\Debug\ImageMatchView.obj
+.\Debug\ImageMatchViewDoc.obj
+.\Debug\ImageMatchViewView.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\ImageMatchView.res
+.\Debug\ALMWorkSpaceBar.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP132.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+ImageMatchView.cpp
+Automatically Linking With ALMPrjManagerD.dll
+Skipping... (no relevant changes detected)
+ImageMatchViewDoc.cpp
+ImageMatchViewView.cpp
+MainFrm.cpp
+warning C4786: 'std::pair<std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiMenu> >,std::map<unsigned int,ref_ptr<orsIGuiMenu>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::iterator,bool>' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiToolBar> >,std::map<unsigned int,ref_ptr<orsIGuiToolBar>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiToolBar> >,std::map<unsigned int,ref_ptr<orsIGuiToolBar>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::const_iterator' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiToolBar> >,std::map<unsigned int,ref_ptr<orsIGuiToolBar>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::iterator' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiToolBar> >,std::map<unsigned int,ref_ptr<orsIGuiToolBar>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::_Node' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiToolBar> >,std::map<unsigned int,ref_ptr<orsIGuiToolBar>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::_Redbl' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiMenu> >,std::map<unsigned int,ref_ptr<orsIGuiMenu>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::const_iterator' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiMenu> >,std::map<unsigned int,ref_ptr<orsIGuiMenu>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::iterator' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiMenu> >,std::map<unsigned int,ref_ptr<orsIGuiMenu>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::_Node' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiMenu> >,std::map<unsigned int,ref_ptr<orsIGuiMenu>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::_Redbl' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::pair<std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiToolBar> >,std::map<unsigned int,ref_ptr<orsIGuiToolBar>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::iterator,bool>' : identifier was truncated to '255' characters in the debug information
+Linking...
+
+
+
+<h3>Results</h3>
+ImageMatchView.exe - 0 error(s), 11 warning(s)
+</pre>
+</body>
+</html>

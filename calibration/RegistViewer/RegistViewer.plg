@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RegistViewer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2873.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "\openrs\desktop\include" /I "\openrs\desktop\src\applications\orsViewer" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/RegistViewer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2873.tmp" 
+<h3>Output Window</h3>
+Compiling...
+RegistViewerView.cpp
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(147) : error C2039: '' : is not a member of 'CDC'
+        d:\program files\microsoft visual studio\vc98\mfc\include\afxwin.h(636) : see declaration of 'CDC'
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(148) : error C2039: '' : is not a member of 'CDC'
+        d:\program files\microsoft visual studio\vc98\mfc\include\afxwin.h(636) : see declaration of 'CDC'
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(182) : error C2039: '' : is not a member of 'CDC'
+        d:\program files\microsoft visual studio\vc98\mfc\include\afxwin.h(636) : see declaration of 'CDC'
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(188) : error C2039: '' : is not a member of 'CDC'
+        d:\program files\microsoft visual studio\vc98\mfc\include\afxwin.h(636) : see declaration of 'CDC'
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(265) : error C2061: syntax error : identifier ''
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(289) : error C2065: '' : undeclared identifier
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(289) : error C2143: syntax error : missing ')' before 'this'
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(289) : error C2059: syntax error : ')'
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(428) : error C2677: binary '&' : no global operator defined which takes type 'struct tagCOPYDATASTRUCT' (or there is no acceptable conversion)
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(478) : error C2677: binary '&' : no global operator defined which takes type 'struct tagCOPYDATASTRUCT' (or there is no acceptable conversion)
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(484) : error C2065: 'N' : undeclared identifier
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(484) : error C2018: unknown character '0xb0'
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(484) : error C2018: unknown character '0xf9'
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(484) : error C2146: syntax error : missing ';' before identifier 'e'
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(484) : warning C4552: '*' : operator has no effect; expected operator with side-effect
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(484) : error C2065: 'e' : undeclared identifier
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(484) : error C2018: unknown character '0x8c'
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(485) : error C2065: 'a' : undeclared identifier
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(485) : error C2146: syntax error : missing ']' before identifier 'm_bCursorFixedEnabled'
+F:\openrs\IntegratedPhotogrammetry\calibration\RegistViewer\RegistViewerView.cpp(485) : error C2109: subscript requires array or pointer type
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+RegistViewerView.obj - 19 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

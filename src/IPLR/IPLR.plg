@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IPLR - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "\openrs\desktop\include" /I "\openrs\IntegratedPhotogrammetry\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/IPLR.pch" /YX"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\openrs\IntegratedPhotogrammetry\src\IPLR\IPLR.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9C.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9D.tmp" with contents
+[
+orsBaseD.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/IPLR.pdb" /debug /machine:I386 /out:"\openRS\desktop\debug\vc60/IPLR.exe" /pdbtype:sept /libpath:"\openrs\desktop\debug\vc60" 
+.\Debug\ALMWorkSpaceBar.obj
+.\Debug\IPLR.obj
+.\Debug\IPLRDoc.obj
+.\Debug\IPLRView.obj
+.\Debug\MainFrm.obj
+.\Debug\OutputEdit.obj
+.\Debug\OutputView.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9D.tmp"
+<h3>Output Window</h3>
+Compiling...
+IPLR.cpp
+Automatically Linking With ALMPrjManagerD.dll
+warning C4786: 'std::pair<std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiMenu> >,std::map<unsigned int,ref_ptr<orsIGuiMenu>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::iterator,bool>' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiToolBar> >,std::map<unsigned int,ref_ptr<orsIGuiToolBar>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiToolBar> >,std::map<unsigned int,ref_ptr<orsIGuiToolBar>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::const_iterator' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiToolBar> >,std::map<unsigned int,ref_ptr<orsIGuiToolBar>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::iterator' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiToolBar> >,std::map<unsigned int,ref_ptr<orsIGuiToolBar>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::_Node' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiToolBar> >,std::map<unsigned int,ref_ptr<orsIGuiToolBar>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::_Redbl' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiMenu> >,std::map<unsigned int,ref_ptr<orsIGuiMenu>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::const_iterator' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiMenu> >,std::map<unsigned int,ref_ptr<orsIGuiMenu>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::iterator' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiMenu> >,std::map<unsigned int,ref_ptr<orsIGuiMenu>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::_Node' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiMenu> >,std::map<unsigned int,ref_ptr<orsIGuiMenu>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiMenu> > >::_Redbl' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::pair<std::_Tree<unsigned int,std::pair<unsigned int const ,ref_ptr<orsIGuiToolBar> >,std::map<unsigned int,ref_ptr<orsIGuiToolBar>,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::_Kfn,std::less<unsigned int>,std::allocator<ref_ptr<orsIGuiToolBar> > >::iterator,bool>' : identifier was truncated to '255' characters in the debug information
+Linking...
+
+
+
+<h3>Results</h3>
+IPLR.exe - 0 error(s), 11 warning(s)
+</pre>
+</body>
+</html>

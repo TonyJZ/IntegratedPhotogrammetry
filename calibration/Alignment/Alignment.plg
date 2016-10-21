@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Alignment - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP281.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "\openrs\desktop\include" /I "\OpenRS\IntegratedPhotogrammetry\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Alignment.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\OpenRS\IntegratedPhotogrammetry\calibration\Alignment\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP281.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP282.tmp" with contents
+[
+FastDisplayD.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Alignment.pdb" /debug /machine:I386 /out:"\openrs\desktop\debug\vc60/Alignment.exe" /pdbtype:sept /libpath:"\openrs\desktop\debug\vc60" /libpath:"\openrs\desktop\lib\vc60" 
+.\Debug\Alignment.obj
+.\Debug\AlignmentDoc.obj
+.\Debug\AlignmentView.obj
+.\Debug\AlignPrj.obj
+.\Debug\ImportLidDlg.obj
+.\Debug\MainFrm.obj
+.\Debug\OutputBar.obj
+.\Debug\OutputEdit.obj
+.\Debug\StdAfx.obj
+.\Debug\WorkspaceBar.obj
+.\Debug\WorkspaceBar2.obj
+.\Debug\Alignment.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP282.tmp"
+<h3>Output Window</h3>
+Compiling...
+MainFrm.cpp
+f:\openrs\integratedphotogrammetry\include\bundler\baseapp.h(55) : fatal error C1083: Cannot open include file: 'hash_map.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Alignment.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CalibProc">
+</Property><Property Name="Solution File" Value="F:\OpenRS\IntegratedPhotogrammetry\calibration\CalibProc\CalibProc.sln">
+</Property><Property Name="Date" Value="2011年8月11日">
+</Property><Property Name="Time" Value="17:08:34">
+</Property></Properties><Event ErrorLevel="0" Project="CalibProc" Source="CalibProc.vcproj" Description="Converting project file 'F:\OpenRS\IntegratedPhotogrammetry\calibration\CalibProc\CalibProc.vcproj'.">
+</Event><Event ErrorLevel="2" Project="CalibProc" Source="CalibProc.vcproj" Description="The platforms root directory &quot;d:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Platforms&quot; does not exist.">
+</Event><Event ErrorLevel="2" Project="F:\OpenRS\IntegratedPhotogrammetry\calibration\CalibProc\CalibProc.vcproj" Source="" Description="The following error has occurred during XML parsing:&#xA;&#xA;File: F:\OpenRS\IntegratedPhotogrammetry\calibration\CalibProc\CalibProc.vcproj&#xA;Line: 10&#xA;Column: 2&#xA;Error Message:&#xA;系统错误: -2146233088。&#xA;&#xA;The file 'F:\OpenRS\IntegratedPhotogrammetry\calibration\CalibProc\CalibProc.vcproj' has failed to load.">
+</Event><Event ErrorLevel="2" Project="CalibProc" Source="CalibProc.vcproj" Description="Project upgrade failed.">
+</Event><Event ErrorLevel="3" Project="CalibProc" Source="CalibProc.vcproj" Description="Not Converted">
+</Event><Event ErrorLevel="2" Project="" Source="CalibProc.vcproj" Description="Project upgrade failed.">
+</Event></UpgradeLog>

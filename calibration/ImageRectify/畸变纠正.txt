@@ -1,0 +1,27 @@
+//畸变差改正反算,进出均是图像坐标
+BOOL CImageLib::DistortCorrectInverse(double m,double n,double &x,double &y,double x0,double y0)
+{
+	double dInX,dInY,dLx,dLy,r,dx,dy;
+	//变换到主点坐标
+	x=m-x0;
+	y=y0-n;
+	//考虑畸变差，利用迭代法进行求解原片上的坐标
+	//迭代法求解
+	dInX=x;
+	dInY=y;
+	do 
+	{
+		dLx=x;
+		dLy=y;
+		r=x*x+y*y;                                                                                                                                        
+		dx=m_oriInner.k1*r*x+m_oriInner.k2*r*r*x+m_oriInner.p1*(r+2*x*x)+2*m_oriInner.p2*x*y+m_oriInner.A*x+m_oriInner.B*y;
+		dy=m_oriInner.k1*r*y+m_oriInner.k2*r*r*y+m_oriInner.p2*(r+2*y*y)+2*m_oriInner.p1*x*y;
+		x=dInX-dx;
+		y=dInY-dy;
+	} while(abs(dLx-x)>0.1 || abs(dLy-y)>0.1);
+
+	x=x+m_oriInner.x;//左上角原点
+	y=m_oriInner.y-y;//左上角原点
+
+	return FALSE;
+}

@@ -1,0 +1,7 @@
+; CheckKeyPoints.def : Declares the module parameters for the DLL.
+
+;LIBRARY      "CheckKeyPoints"
+DESCRIPTION  'CheckKeyPoints Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

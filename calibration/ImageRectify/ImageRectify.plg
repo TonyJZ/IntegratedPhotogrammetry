@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ImageRectify - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5491.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "\OpenRS\DPS\include" /I "\OpenRS\IntegratedPhotogrammetry\include" /I "\OpenRS\desktop\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "_Image_Rectify_Inor_LIB_" /Fp"Debug/ImageRectify.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ    /c 
+"F:\OpenRS\DPS\src\ImageRectify\orsImageRectify_Inor.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5491.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5492.tmp" with contents
+[
+orsBaseD.lib dpsBaseVC60D.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/ImageRectify.pdb" /debug /machine:I386 /def:".\ImageRectify.def" /out:"\openRS\desktop\debug\vc60\ImageRectify.dll" /implib:"\openRS\desktop\debug\vc60\ImageRectify.lib" /pdbtype:sept /libpath:"\openRS\desktop\lib\vc60" /libpath:"\openRS\desktop\debug\vc60" /libpath:"\openrs\dps\lib\vc60" 
+.\Debug\ImageRectify.obj
+.\Debug\StdAfx.obj
+.\Debug\ImageRectify.res
+.\Debug\orsImageRectify_Inor.obj
+.\Debug\InorSettingDlg.obj
+.\Debug\GridCell.obj
+.\Debug\GridCellBase.obj
+.\Debug\GridCtrl.obj
+.\Debug\SetCameraDlg.obj
+.\Debug\InPlaceEdit.obj
+.\Debug\TitleTip.obj
+.\Debug\GridDropTarget.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5492.tmp"
+<h3>Output Window</h3>
+Compiling...
+orsImageRectify_Inor.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ImageRectify.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

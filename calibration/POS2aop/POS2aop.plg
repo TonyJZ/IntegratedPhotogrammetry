@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: POS2aop - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP233.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /I "\OpenRS\desktop\include\\" /I "\OpenRS\IntegratedPhotogrammetry\include" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/POS2aop.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"F:\OpenRS\IntegratedPhotogrammetry\POS2aop\POS2aop.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP233.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP234.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/POS2aop.pdb" /debug /machine:I386 /out:"Debug/POS2aop.exe" /pdbtype:sept 
+.\Debug\POS2aop.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP234.tmp"
+<h3>Output Window</h3>
+Compiling...
+POS2aop.cpp
+f:\openrs\integratedphotogrammetry\include\calibbasedef.h(250) : warning C4091: 'typedef ' : ignored on left of 'struct ImgPt' when no variable is declared
+f:\openrs\integratedphotogrammetry\include\calibbasedef.h(257) : warning C4091: 'typedef ' : ignored on left of 'struct ImgMatchPt' when no variable is declared
+Linking...
+LINK : fatal error LNK1104: cannot open file "CalibUtility.lib"
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+POS2aop.exe - 1 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

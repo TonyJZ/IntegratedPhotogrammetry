@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TieObjMeasure - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2778.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "\openrs\IntegratedPhotogrammetry\include\GridCtrl" /I "\openrs\desktop\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/TieObjMeasure.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\openrs\IntegratedPhotogrammetry\calibration\TieObjMeasure\TieObjMeasureDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2778.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2779.tmp" with contents
+[
+FastDisplayD.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/TieObjMeasure.pdb" /debug /machine:I386 /out:"\openrs\desktop\debug\vc60/TieObjMeasure.exe" /pdbtype:sept /libpath:"\openrs\desktop\debug\vc60" /libpath:"\openrs\desktop\lib\vc60" 
+.\Debug\AlignPrj.obj
+.\Debug\StdAfx.obj
+.\Debug\TieObjMeasure.obj
+.\Debug\TieObjMeasureDlg.obj
+.\Debug\GridCell.obj
+.\Debug\GridCellBase.obj
+.\Debug\GridCellCheck.obj
+.\Debug\GridCellCombo.obj
+.\Debug\GridCellDateTime.obj
+.\Debug\GridCellNumeric.obj
+.\Debug\GridCtrl.obj
+.\Debug\GridDropTarget.obj
+.\Debug\GridURLCell.obj
+.\Debug\InPlaceEdit.obj
+.\Debug\TitleTip.obj
+.\Debug\TieObjMeasure.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2779.tmp"
+<h3>Output Window</h3>
+Compiling...
+TieObjMeasureDlg.cpp
+F:\openrs\IntegratedPhotogrammetry\calibration\TieObjMeasure\TieObjMeasureDlg.cpp(148) : error C2059: syntax error : '&&'
+F:\openrs\IntegratedPhotogrammetry\calibration\TieObjMeasure\TieObjMeasureDlg.cpp(148) : error C2143: syntax error : missing ';' before '}'
+F:\openrs\IntegratedPhotogrammetry\calibration\TieObjMeasure\TieObjMeasureDlg.cpp(148) : error C2143: syntax error : missing ';' before '}'
+F:\openrs\IntegratedPhotogrammetry\calibration\TieObjMeasure\TieObjMeasureDlg.cpp(149) : error C2143: syntax error : missing ';' before '{'
+F:\openrs\IntegratedPhotogrammetry\calibration\TieObjMeasure\TieObjMeasureDlg.cpp(149) : error C2447: missing function header (old-style formal list?)
+F:\openrs\IntegratedPhotogrammetry\calibration\TieObjMeasure\TieObjMeasureDlg.cpp(149) : error C2143: syntax error : missing ';' before ','
+F:\openrs\IntegratedPhotogrammetry\calibration\TieObjMeasure\TieObjMeasureDlg.cpp(150) : error C2143: syntax error : missing ';' before '{'
+F:\openrs\IntegratedPhotogrammetry\calibration\TieObjMeasure\TieObjMeasureDlg.cpp(150) : error C2447: missing function header (old-style formal list?)
+F:\openrs\IntegratedPhotogrammetry\calibration\TieObjMeasure\TieObjMeasureDlg.cpp(150) : error C2143: syntax error : missing ';' before ','
+F:\openrs\IntegratedPhotogrammetry\calibration\TieObjMeasure\TieObjMeasureDlg.cpp(151) : error C2143: syntax error : missing ';' before '{'
+F:\openrs\IntegratedPhotogrammetry\calibration\TieObjMeasure\TieObjMeasureDlg.cpp(151) : error C2447: missing function header (old-style formal list?)
+F:\openrs\IntegratedPhotogrammetry\calibration\TieObjMeasure\TieObjMeasureDlg.cpp(151) : error C2143: syntax error : missing ';' before ','
+F:\openrs\IntegratedPhotogrammetry\calibration\TieObjMeasure\TieObjMeasureDlg.cpp(152) : error C2143: syntax error : missing ';' before '{'
+F:\openrs\IntegratedPhotogrammetry\calibration\TieObjMeasure\TieObjMeasureDlg.cpp(152) : error C2447: missing function header (old-style formal list?)
+F:\openrs\IntegratedPhotogrammetry\calibration\TieObjMeasure\TieObjMeasureDlg.cpp(152) : error C2143: syntax error : missing ';' before '}'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+TieObjMeasure.exe - 15 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,7 @@
+; ImageMatch.def : Declares the module parameters for the DLL.
+
+LIBRARY      "ImageMatch"
+DESCRIPTION  'ImageMatch Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

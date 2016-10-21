@@ -1,0 +1,7 @@
+; ImageGeoProcess.def : Declares the module parameters for the DLL.
+
+;LIBRARY      "ImageGeoProcess"
+DESCRIPTION  'ImageGeoProcess Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

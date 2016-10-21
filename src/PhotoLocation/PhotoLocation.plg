@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PhotoLocation - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "I:\Users\ZHANGJ~1\AppData\Local\Temp\RSP36E3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PhotoLocation.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp"
+"F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\MainFrm.cpp"
+"F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\PhotoLocation.cpp"
+"F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\PhotoLocationDoc.cpp"
+"F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\PhotoLocationView.cpp"
+]
+Creating command line "cl.exe @I:\Users\ZHANGJ~1\AppData\Local\Temp\RSP36E3.tmp" 
+Creating temporary file "I:\Users\ZHANGJ~1\AppData\Local\Temp\RSP36E4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PhotoLocation.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\StdAfx.cpp"
+]
+Creating command line "cl.exe @I:\Users\ZHANGJ~1\AppData\Local\Temp\RSP36E4.tmp" 
+Creating temporary file "I:\Users\ZHANGJ~1\AppData\Local\Temp\RSP36E5.tmp" with contents
+[
+openGL32.lib glu32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/PhotoLocation.pdb" /debug /machine:I386 /out:"Debug/PhotoLocation.exe" /pdbtype:sept 
+.\Debug\3DView.obj
+.\Debug\MainFrm.obj
+.\Debug\PhotoLocation.obj
+.\Debug\PhotoLocationDoc.obj
+.\Debug\PhotoLocationView.obj
+.\Debug\StdAfx.obj
+.\Debug\PhotoLocation.res
+]
+Creating command line "link.exe @I:\Users\ZHANGJ~1\AppData\Local\Temp\RSP36E5.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+3DView.cpp
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(280) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(292) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(292) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(292) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(434) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(479) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(479) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(505) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(505) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(777) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(777) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(777) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(778) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(778) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(778) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(779) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(779) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(779) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(780) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(780) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(780) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(781) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(781) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(781) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(782) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(782) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(782) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\3DView.cpp(1098) : warning C4101: 'dZ' : unreferenced local variable
+MainFrm.cpp
+PhotoLocation.cpp
+PhotoLocationDoc.cpp
+F:\OpenRS\IntegratedPhotogrammetry\src\PhotoLocation\PhotoLocationDoc.cpp(253) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+PhotoLocationView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PhotoLocation.exe - 0 error(s), 29 warning(s)
+</pre>
+</body>
+</html>

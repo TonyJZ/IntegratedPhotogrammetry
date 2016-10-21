@@ -45,3 +45,37 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# MS Project files
+*.sdf
+*.filters
+*.user
+*.tlog
+*.obj
+*.log
+*.manifest
+*.idb
+*.pdb
+*.rc
+*.lastbuildstate
+*.pch
+*.unsuccessfulbuild
+*.cache
+*.ipch
+*.res
+*.opensdf
+
+# directories
+bin/
+Bin/
+lib/
+Lib/
+build/
+Build/
+zip/
+external/
+External/
+BA/
+ba/
+
+calibration.rar
